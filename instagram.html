@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>instagram</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .cont1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 140px 0;
+        
+         flex-direction: column;
+      }
+      .container {
+        /* border: 2px solid black; */
+        box-shadow: 1px 1px 8px 1px #0000003d;
+        border-radius: 2px;
+        width: 400px;
+        margin-bottom: 25px;
+        padding: 80px 20px;
+        display: flex;
+
+flex-direction: column;
+align-items: center;
+
+      }
+      h1 {
+        margin-bottom: 10px;
+      }
+     
+      input {
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+      .btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* text-align: center; */
+      }
+      button {
+        width: 250px;
+        margin-top: 10px;
+        padding: 5px;
+        background-color: rgb(97, 81, 190);
+        border: none;
+        color: white;
+      }
+      button:hover {
+        background-color: rgb(15, 43, 119);
+        color: rgb(5, 5, 5);
+      }
+      h3 {
+        text-decoration-line: line-through;
+        /* text-align: center; */
+
+        margin: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        margin-bottom: 10px;
+      }
+      a:hover {
+        color: rgb(0, 0, 0);
+      }
+      
+     
+      footer {
+        width: 100%;
+        padding: 70px;
+        
+        
+      }
+      p {
+        text-align: center;
+        box-shadow: 1px 1px 8px 1px #0000003d;
+        border-radius: 2px;
+        width: 400px;
+        padding: 20px;
+      }
+       .about1{
+          display: flex;
+          justify-content:center;
+          list-style: none;
+          padding: 5px;
+      }
+      .about2{
+          display: flex;
+          justify-content:center;
+          list-style: none;
+          padding: 5px;
+      }
+      .about3{
+          display: flex;
+          justify-content:center;
+          list-style: none;
+          padding: 5px;
+      } 
+      li{
+          color: black;
+          padding: 0 15px;
+      }
+      li a{
+          color:black;
+      }
+      li a:hover{
+          color: aliceblue;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="cont1">
+      <div class="container">
+        <!-- <div class="id"> -->
+          <h1>Instagram</h1>
+          <input type="text" placeholder="username,P no,or email" />
+          <input type="password" placeholder="password" />
+          <button type="submit">Log in</button>
+          <h3>OR</h3>
+          <a style="font-weight: bold" href="#">Log in with facebook</a>
+          <a href="#">Forgot password?</a>
+        <!-- </div> -->
+      </div>
+      <div class="cont2"><p>
+        Dont have an account? <a style="font-weight: bold" href="#">Sign up</a>
+      </p>
+  </div>
+    </div>
+    <footer>
+        <ul class="about1">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Helps</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Top Accounts</a></li>
+            <li><a href="#">Hashtags</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Instagram Lite</a></li>
+        </ul>
+        <ul class="about2">
+            <li><a href="#">Beauty</a></li>
+            <li><a href="#">Dance</a></li>
+            <li><a href="#">Fitness</a></li>
+            <li><a href="#">Food & Drinks</a></li>
+            <li><a href="#">Home & garden</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Visual Arts</a></li>
+        </ul>
+        <ul class="about3">
+            <li><a href="">English</a></li>
+            <li>@2021 Instagram from facebook</li>
+        </ul>
+    </footer>
+  </body>
+</html>
